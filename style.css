@@ -94,3 +94,19 @@ ul.navbar-nav.jon.menu.mb-2.mb-lg-0 {
         position: relative;
         left: -56px;
     }
+    .form-banner.text-center {
+        
+        margin-left: -2px;
+        display: inline-block;
+    }
+    .get-app{
+        background: rgb(23, 170, 43);
+        font-size: 17px;
+        transition: .4s;
+    }
+    .get-app:hover{
+        background: none;
+    }
+    .email-address:focus{
+        border:1px solid olivedrab;
+    }
