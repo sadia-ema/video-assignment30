@@ -1,0 +1,96 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+.logo{
+    width: 40px;
+    margin-right: 5px;
+}
+ul.navbar-nav.jon.menu.mb-2.mb-lg-0 {
+    
+    margin-left: 232px;
+   
+}
+.button {
+    margin-left: 435px;
+    display: inline-block;
+}
+.banner {
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.383);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.about-section{
+    background: #F7F9FF;
+}
+.about-paragraph {
+    padding: 130px 20px;
+}
+.feature{
+    width: 250px;
+    
+}
+.portfolio-item{
+    position: relative;
+}
+    .portfolio-item::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(70, 66, 66, 0.555);
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+    }
+    .portfolio-item:hover::after{
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .portfolio-item img{
+        max-width: 100%;
+    }
+
+
+    /* slider */
+    .slider-section {
+
+    }
+    .slider-item {
+        position: relative;
+        height: 300px;
+        box-shadow: 3px 3px 6px 0 #afacac;
+    }
+    .slider-item img{
+        max-width: 100%;
+    }
+    .left-img {
+        width: 40%;
+        overflow: hidden;
+        border-radius: 5px 0 0 5px;
+    }
+     .right-text{
+        width: 60%;
+        padding: 20px;
+     }
+     img.img {
+        height: 100%;
+        width: auto !important;
+        max-width: inherit;
+        position: relative;
+        left: -56px;
+    }
